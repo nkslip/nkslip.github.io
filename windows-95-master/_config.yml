@@ -1,0 +1,25 @@
+permalink: /:year:month:day/:title
+url: https://nkslip.github.io
+baseurl: /project
+
+# variables
+name: Nikslp Beta
+description: the shitty, less real version of nikslp
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
